@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "more-generic-tags",
+  "version": "${version}",
+  "name": "More Generic Tags",
+  "description": "Adds and automatically assigns tags for techy items",
+  "authors": [
+    "sschr15"
+  ],
+  "contact": {
+    "repo": "https://github.com/sschr15/more-generic-tags"
+  },
+  "license": "MPL-2.0",
+  "icon": "assets/more-generic-tags/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "sschr15.mods.fabric.moregenerictags.MoreGenericTags"
+    ],
+    "server": [
+      "sschr15.mods.fabric.moregenerictags.MoreGenericTags"
+    ]
+  },
+  "depends": {
+    "fabric": "*"
+  }
+}
